@@ -1,0 +1,23 @@
+create table 'user_table'{'user_id' int, 
+    'username' varchar(260),
+    'password' varchar(260),
+    'confrimPassword' varchar(260),
+    'email' varchar(250),
+    'phonenumber' int
+    };
+    
+create table 'restaurant_table'{
+    'res_id' int,
+    'restaurant_name' varchar(250),
+    'location' varchar(250),
+    'phonenum' int
+    };
+    
+create table 'admin'{
+    'admin_id' int,
+    'password' varchar(250),
+    'res_id' int,
+    'acc_id' int,
+    'restaurant_name' varchar(250),
+    'cust_name' varcar(250)
+    };
